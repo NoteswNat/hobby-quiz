@@ -368,7 +368,15 @@ const HobbyQuiz = () => {
               margin: '0 0 24px 0',
               lineHeight: '1.5'
             }}>
-              Enter your email to get your hobby archetype results and recommendations.
+              Enter your email to get your hobby archetype results and 20 hobby recommendations.
+            </p>
+            <p style={{
+              fontSize: '14px',
+              color: '#888',
+              margin: '0 0 24px 0',
+              lineHeight: '1.5'
+            }}>
+              By entering your email, you'll be added to my Notes w/ Nat subscriber list where I share brain health tips and hobby research. You can unsubscribe anytime.
             </p>
 
             <form onSubmit={handleEmailSubmit}>
@@ -496,7 +504,7 @@ const HobbyQuiz = () => {
         fontSize: '14px'
       }}>
         <p style={{ margin: '0' }}>
-          Made by Natalia • Notes w/ Nat
+          Made by Nat • Notes w/ Nat
         </p>
       </div>
     </div>
